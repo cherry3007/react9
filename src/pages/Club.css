@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.headers-content{
+    width: 1450px;
+    height: 225px;
+    opacity: 1;  
+    background: rgba(1, 174, 231, 1);  
+    position: relative;
+    bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.headers-content h3{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(255, 245, 0, 1); 
+    position: relative;
+    top: 28px;
+    left: 644px;
+}
+.headers-content h2{
+    width: 522px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 35px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.domm{
+    width: 1440px;
+    height: 1054px;
+    background: rgba(255, 255, 255, 1);    
+}
+.sectioon{
+    width: 1440px;
+    height: 1770px;
+    background: rgba(217, 217, 217, 1);
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+}
+.sectioon h1{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1); 
+    padding-top: 77px;  
+    text-align: center; 
+}
+.sectioon-content{
+
+}
+.froom{
+    width: 400px;
+    height: 96px;   
+    margin: 58px auto; 
+}
+.froom label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    background: rgba(217, 217, 217, 1);
+}
+.froom input[type="text"],
+.froom input[type="email"],
+.froom input[type="tel"],
+.froom textarea {
+  width: 400px;
+  height: 35px;
+  border: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  outline: none;
+  background: rgba(217, 217, 217, 1);
+  border: none;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: rgba(93, 86, 86, 1);
+}
+
+.froom textarea {
+  height: 80px;
+  resize: none;
+  border: 2px solid #aaa;
+}
+.lane{
+    width: 400px;
+    height: 0px;
+    opacity: 1;
+    border: 1px solid rgba(0, 0, 0, 1);
+    position: relative;
+
+}
+.radio-group,
+.checkbox-group {
+    position: relative;
+    left: 525px;
+}
+.radio-group label,
+.checkbox-group label{
+  margin-top: 20px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 1);  
+}
+
+.radio-group div,
+.checkbox-group div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.radio-group input,
+.checkbox-group input {
+  margin-right: 8px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 1);  
+}
+.dont{
+    display: flex;
+}
+.dont label{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);    
+    position: relative;
+    left: 530px;
+    top: 30px;
+}
+.add-files {
+    width: 125px;
+    height: 34px;
+    background: rgba(1, 174, 231, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;    
+    margin-top: 64px;
+    position: relative;
+    left: 210px;
+}
+.footer1-box {
+    width: 1440px;
+    height: 383px;
+    background-color: #00aaff;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+  }
+  
+  
+.footer1-box .column {
+    width: 200px;
+    color: white;
+}
+.footer1-box h4 {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.footer1-box p {
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.submit-btn {
+    width: 160px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 30px 120px;
+    background: rgba(1, 174, 231, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;    
+}
+  
