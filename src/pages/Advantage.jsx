@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Advantage.css"
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Advantage = () => {
   return (
@@ -17,12 +17,13 @@ const Advantage = () => {
           <button className='btnnv'>оставить заявку</button>
           <div className="line"></div>
           <ul className="ul">
-  <li><Link to="/about">о бренде</Link></li>
-  <li><Link to="/home">продукции</Link></li>
-  <li><Link to="/advantage">преимущества</Link></li>
-  <li><Link to="/club">открыть клуб</Link></li>
-  <li><Link to="/">контакты</Link></li>
+  <li><NavLink to="/about" className={({ isActive }) => isActive ? "active-link" : ""}>о бренде</NavLink></li>
+  <li><NavLink to="/home" className={({ isActive }) => isActive ? "active-link" : ""}>продукции</NavLink></li>
+  <li><NavLink to="/advantage" className={({ isActive }) => isActive ? "active-link" : ""}>преимущества</NavLink></li>
+  <li><NavLink to="/club" className={({ isActive }) => isActive ? "active-link" : ""}>открыть клуб</NavLink></li>
+  <li><NavLink to="/" className={({ isActive }) => isActive ? "active-link" : ""}>контакты</NavLink></li>
 </ul>
+
         </nav>
         <div className="headers-content">
             <h1>НАШИ ПРЕИМУЩЕСТВА</h1>

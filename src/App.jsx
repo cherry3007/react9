@@ -4,8 +4,7 @@ import { Outlet } from 'react-router-dom';
 const App = () => {
   return (
     <div>
-      {/* Шапка или навигация, если хочешь */}
-      <Outlet />
+      <Outlet /> 
     </div>
   );
 };
