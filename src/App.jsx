@@ -1,12 +1,13 @@
-import React from 'react'
-
+import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 const App = () => {
   return (
     <div>
-      <h1></h1>
+      {/* Шапка или навигация, если хочешь */}
+      <Outlet />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

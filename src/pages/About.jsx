@@ -1,5 +1,6 @@
 import React from 'react'
 import "./About.css"
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -16,12 +17,12 @@ const About = () => {
           <button className='btnnv'>оставить заявку</button>
           <div className="line"></div>
           <ul className="ul">
-            <li>о бренде</li>
-            <li>продукции</li>
-            <li>преимущества</li>
-            <li>открыть клуб</li>
-            <li>контакты</li>
-          </ul>
+  <li><Link to="/about">о бренде</Link></li>
+  <li><Link to="/home">продукции</Link></li>
+  <li><Link to="/advantage">преимущества</Link></li>
+  <li><Link to="/club">открыть клуб</Link></li>
+  <li><Link to="/">контакты</Link></li>
+</ul>
         </nav>
         <div className="headers-content">
           <h3>О НАШЕМ БРЕНДЕ</h3>
